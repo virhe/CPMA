@@ -1,0 +1,22 @@
+name: C/C++ Linter
+
+on: [push]
+
+jobs:
+  c-linter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cpp-linter/cpp-linter-action@main
+        id: linter
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          style: llvm
+          files-changed-only: false
+          tidy-checks: '-*'
+
+      - name: Fail fast?!
+        if: steps.linter.outputs.checks-failed != 0
+        run: exit 1
