@@ -1,11 +1,11 @@
 CC = clang
 CFLAGS = -Wall -Wextra -pedantic -std=c99
 
-all: ex1 ex3 ex4 proj1 proj2 proj3 proj4 proj5 proj6 proj7
+all: ex1 ex3 ex4 proj1 proj2 proj3 proj4 proj5 proj6 proj7 proj8
 
 exercises: ex1 ex3 ex4
 
-projects: proj1 proj2 proj3 proj4 proj5 proj6 proj7
+projects: proj1 proj2 proj3 proj4 proj5 proj6 proj7 proj8
 
 # Exercises
 ex1:
@@ -39,5 +39,8 @@ proj6:
 proj7:
 	$(CC) $(CFLAGS) -o proj7 Projects/proj7.c
 
+proj8:
+	$(CC) $(CFLAGS) -o proj8 Projects/proj8.c
+
 clean:
-	rm ex1 ex3 ex4 proj1 proj2 proj3 proj4 proj5 proj6 proj7
+	rm ex1 ex3 ex4 proj1 proj2 proj3 proj4 proj5 proj6 proj7 proj8
