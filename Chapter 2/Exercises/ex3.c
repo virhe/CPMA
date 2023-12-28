@@ -3,9 +3,6 @@
 int main(void) {
   int height = 8, length = 12, width = 10, volume;
 
-  height = 8;
-  length = 12;
-  width = 10;
   volume = height * length * width;
 
   printf("Dimensions: %dx%dx%d\n", length, width, height);
