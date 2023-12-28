@@ -5,7 +5,7 @@ all: ex1 ex3 ex4 proj1
 
 exercises: ex1 ex3 ex4
 
-projects: proj1 proj2
+projects: proj1 proj2 proj3
 
 ex1:
 	$(CC) $(CFLAGS) -o ex1 Exercises/ex1.c
@@ -20,7 +20,10 @@ proj1:
 	$(CC) $(CFLAGS) -o proj1 Projects/proj1.c
 
 proj2:
-	$(CC) $(CFLAGS) -o proj2 Projects/proj2.c
+	$(CC) $(CFLAGS) -o proj2 Projects/proj2.
+
+proj3:
+	$(CC) $(CFLAGS) -o proj3 Projects/proj3.c
 
 clean:
-	rm ex1 ex3 ex4 proj1 proj2
+	rm ex1 ex3 ex4 proj1 proj2 proj3
