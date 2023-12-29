@@ -9,13 +9,13 @@ projects: proj1 proj2 proj3 proj4 proj5 proj6 proj7 proj8
 
 # Exercises
 ex1:
-	$(CC) $(CFLAGS) -o ex1 Exercises/ex1.c
+	$(CC) $(CFLAGS) -o ex1 Exercises/Ex1/ex1.c
 
 ex3:
-	$(CC) $(CFLAGS) -o ex3 Exercises/ex3.c
+	$(CC) $(CFLAGS) -o ex3 Exercises/Ex3/ex3.c
 
 ex4:
-	$(CC) $(CFLAGS) -o ex4 Exercises/ex4.c
+	$(CC) $(CFLAGS) -o ex4 Exercises/Ex4/ex4.c
 
 # Projects
 proj1:
