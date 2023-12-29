@@ -19,28 +19,28 @@ ex4:
 
 # Projects
 proj1:
-	$(CC) $(CFLAGS) -o proj1 Projects/proj1.c
+	$(CC) $(CFLAGS) -o proj1 Projects/Proj1/proj1.c
 
 proj2:
-	$(CC) $(CFLAGS) -o proj2 Projects/proj2.c
+	$(CC) $(CFLAGS) -o proj2 Projects/Proj2/proj2.c
 
 proj3:
-	$(CC) $(CFLAGS) -o proj3 Projects/proj3.c
+	$(CC) $(CFLAGS) -o proj3 Projects/Proj3/proj3.c
 
 proj4:
-	$(CC) $(CFLAGS) -o proj4 Projects/proj4.c
+	$(CC) $(CFLAGS) -o proj4 Projects/Proj4/proj4.c
 
 proj5:
-	$(CC) $(CFLAGS) -o proj5 Projects/proj5.c
+	$(CC) $(CFLAGS) -o proj5 Projects/Proj5/proj5.c
 
 proj6:
-	$(CC) $(CFLAGS) -o proj6 Projects/proj6.c
+	$(CC) $(CFLAGS) -o proj6 Projects/Proj6/proj6.c
 
 proj7:
-	$(CC) $(CFLAGS) -o proj7 Projects/proj7.c
+	$(CC) $(CFLAGS) -o proj7 Projects/Proj7/proj7.c
 
 proj8:
-	$(CC) $(CFLAGS) -o proj8 Projects/proj8.c
+	$(CC) $(CFLAGS) -o proj8 Projects/Proj8/proj8.c
 
 clean:
 	rm ex1 ex3 ex4 proj1 proj2 proj3 proj4 proj5 proj6 proj7 proj8
