@@ -19,7 +19,9 @@ int main(void)
   return 0;
 }
 ```
+
 ---
+
 Only the sections marked with [SPACE] require a space.\
 Alternatively spaces could also be removed from printf, however the output would change.
 

@@ -11,7 +11,9 @@ int main(void)
 }
 ```
 a) Identify the directives and statements in this program.
+
 ---
+
 Directives:
 - #include <stdio.h>
 
@@ -22,7 +24,9 @@ Statements:
 - return 0;
 
 b) What output does the program produce?
+
 ---
+
 Parkinson's Law:\
 Work expands so as to fill the time\
 available for its completion.
